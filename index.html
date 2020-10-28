@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/index.css">
+  <title>I am Jane</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="pt-2">
+      <div class="">
+        <div class="text-light d-none d-lg-flex justify-content-end ">
+          <div class="">
+            <ul class="nav   font-weight-bold">
+              <li><a href="#" class="nav-link text-light">Home</a></li>
+              <li><a href="#" class="nav-link text-light">About Me</a></li>
+              <li><a href="#" class="nav-link text-light">Gallery</a></li>
+              <li><a href="#" class="nav-link text-light">Contact Me</a></li>
+            </ul>
+          </div> 
+        </div>
+        <div class="ml-3 d-lg-none" id="icon">
+            <button class="bg-transparent navbtn border-0" type="button"><span class="text-light fas fa-bars"></span></button>
+        </div>
+    </div>
+    <div class=" d-none" id="content">
+        <ul class="nav text-light font-weight-bold d-flex flex-column">
+            <li class="nav-item"><a href="#" class="nav-link text-light">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link text-light">About Me</a></li>
+            <li class="nav-item"><a href="#gallery" class="nav-link text-light">Gallery</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link text-light">Contact Me</a></li>
+        </ul>
+    </div>
+    </nav>
+
+    <div class="d-flex mt-5 ml-3">
+      <div class="mt-5 w-100">
+        <div class="heading-text ">
+          <div class="mt-5 ">
+            <h1 class="mb-1">Hello,</h1>
+            <h1 class="mb-1">I'm Jane Eyre</h1>
+            <h1 class="mb-1">and I'm a model</h1>
+          </div>
+          <div class="para">
+            <p class="mb-4 h7 w-75">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eligendi odio, ratione nihil, molestiae voluptate dolorum eum earum esse impedit, dolores error</p>
+          </div>
+          <div>
+            <button class="btn btn-outline-light rounded-0 w-25">Book Me</button>
+          </div>
+        </div>
+        <div class="container d-flex justify-content-end h-25">
+          <div class="d-flex align-items-end">
+            <div class="d-none d-md-flex flex-column h-100 justify-content-around">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div id="about">
+      <div class="d-lg-flex">
+        <div>
+          <img src="./assets/pic1.png" alt="about picture">
+        </div>
+        <div class="d-flex align-items-center">
+          <div class="m-3 ">
+            <h2>About Me</h2>
+            <p class="ptag">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non enim autem, facilis architecto sit delectus et ab corrupti, nisi ullam excepturi ipsam ad dolor dolores quisquam id neque molestias voluptatem necessitatibus! Error doloribus vero maxime molestias dolorem possimus tempora. Soluta, consectetur saepe. Voluptatem, magni laboriosam!</p>
+            <br>
+            <p class="ptag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi deserunt eveniet quasi. Ullam animi, sint, officia omnis amet illum voluptate dolorem qui veniam distinctio eaque voluptas, reiciendis commodi delectus accusamus deleniti magnam. Excepturi, eos. Reprehenderit veniam quia rem delectus id quis fugit fuga earum cumque natus non iste, nisi repellendus molestias eius eveniet modi atque asperiores incidunt consequuntur iusto sed.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="gallery">
+    <div class="style">
+    <div class="gallery-box ">
+        <div><img class="box"src="assets/pic2.png" alt="pic1"></div>
+        <div><img class="box"src="assets/pic1.png" alt="pic2"></div>
+        <div><img class="box"src="assets/pic3.png" alt="pic3"></div>
+    </div>
+  </section>
+  <section class="ending ml-3 mr-3 ">
+    <div class="closing d-block d-lg-flex justify-content-between">
+      <div class="closing-info">
+          <div class="">
+            <h3 class="h6 fw-bold">I'D LOVE TO HEAR FROM YOU</h3>
+          </div>
+          <div class="closing-social"> 
+            <i class="fab fa-facebook-f"></i> 
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+          </div>
+      </div>
+      <div id="contact">
+        <form class="form" action="">
+          <div class="form-group">
+            <div class="contact-me d-flex justify-content-center">
+              <h3 class="h5">Contact Me</h3>
+            </div>
+            <div class="details d-block justify-content-between d-md-flex mb-3 w-100">
+              <label class=>Name</label>
+              <input type="text" class="form-control bg-transparent rounded-0">
+            </div>
+            <div class="details d-block justify-content-between d-md-flex mb-3">
+              <label for="">Email</label>
+              <input type="text" class="form-control bg-transparent rounded-0 ">
+            </div>
+            <div class="details d-block justify-content-between d-md-flex mb-3">
+              <label for="">Message</label>
+              <textarea name="message" id="message" class="form-control bg-transparent rounded-0" cols="30" rows="7"></textarea>
+            </div>
+            <div class="details d-flex justify-content-end">
+              <button class="btn btn-outline-light rounded-0 ">Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+  </div>
+  </section>
+  
+
+
+
+
+  <script src="./script.js"></script>
+</body>
+</html>
